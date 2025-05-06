@@ -16,4 +16,44 @@ var x = square(4);   // x recebe o valor 16
 
 # function declaration (declaração de função)
 <br>
-### Define uma função com os parâmetros específicos para uma função criada com uma declaração 
+
+Ela define uma função com os parâmetros específicos para uma função criada com uma declaração tem toda as propriedades, métodos e comportamento dos objetos na **function**, podendo ser chamada em qualquer parte do código.
+<br>
+
+## ° Vantagem
+<br>
+As funções declaradas possui hoísting, ou seja são movida para o topo esboço em que foram declaradas, sendo possivel chamar a função antes dela ser declarada, além disso são fáceis de serem indentificadas e debugadas, por terem nomes para referenciá-las, ela é uma forma simples e eficiente de declarar funções em javascript.
+<br>
+
+## ° Desvantagem
+<br>
+Em contra partida devdo ao hoísting, declarar uma função com o mesmo nome em diferentes partes do código pode resultar na sobreescrita da função inicial. álem de possuir menor controle  de  escopo, o que pode dificultar a modulalização do código.
+<br>
+
+### Exemplos em código:
+<br>
+
+```javascript
+function saudacao(){
+console.log("olá!");
+}
+saudacao()
+```
+<br>
+
+```javascript
+function soma(a,b){
+return a + b;
+}
+let resultado = soma(3,4);
+console.log(resultado);
+```
+<br>
+
+```javascript
+function script(){
+   var hello_world = "hello world!";
+   return hello_world;
+}
+script();
+```
