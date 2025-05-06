@@ -1,2 +1,2 @@
 # -FuncoesJs
-Projeto da Disciplina de LS - atividade 1
+Projeto da Disciplina de LS - atividade 2
